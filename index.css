@@ -1,0 +1,49 @@
+body{
+  background-color: #e8ffff;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.game{
+  visibility: hidden;
+  opacity: 0.0;
+}
+
+.message{
+  padding-top: 20%;
+}
+
+.row{
+  margin: auto auto auto auto;
+}
+
+.item{
+  background-color: #213e3b;
+  padding: 0 0 0 0;
+  margin: 1rem 2rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.item00, .item01, .item10, .item11{
+  background-size: cover;
+}
+
+.item00{
+  background-image: url('images/cat.png');
+}
+
+.item01{
+  background-image: url('images/dog.png');
+}
+
+.item10{
+  background-image: url('images/rooster.png');
+}
+
+.item11{
+  background-image: url('images/sheep.png');
+}
